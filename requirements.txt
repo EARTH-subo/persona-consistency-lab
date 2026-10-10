@@ -1,0 +1,13 @@
+# Agent 运行时
+langchain-core
+langchain-deepseek
+python-dotenv
+
+# 检索与建库
+jieba
+numpy
+onnxruntime
+tokenizers
+
+# 语料抓取
+requests

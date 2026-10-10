@@ -1,0 +1,28 @@
+# 密钥
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 语料与索引数据（版权原因不入库，见 docs/数据与版权说明.md）
+rag/corpus.jsonl
+rag/himeko_fts.db
+rag/embeddings.npy
+rag/embeddings_meta.jsonl
+rag/models/
+
+# 官方素材（版权原因不入库）
+官方视频/
+*.mp4
+*.onnx
+姬子_官方文本存档.md
+姬子_官方资料汇编_v1.md
+
+# 系统
+.DS_Store
+Thumbs.db
