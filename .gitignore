@@ -9,17 +9,24 @@ __pycache__/
 .venv/
 venv/
 
-# 语料与索引数据（版权原因不入库，见 docs/数据与版权说明.md）
-rag/corpus.jsonl
-rag/himeko_fts.db
-rag/embeddings.npy
-rag/embeddings_meta.jsonl
-rag/models/
+# ---- 版权原因不入库（详见 docs/版权隐去说明.md）----
 
-# 官方素材（版权原因不入库）
+# 人设卡（含成体系官方原文引用）
+姬子_人设卡_v1.txt
+姬子_人设卡_v2.txt
+
+# 官方语料、检索索引与向量模型
+rag/
+*.db
+*.npy
+*.onnx
+
+# 官方影像与影像拆解稿
 官方视频/
 *.mp4
-*.onnx
+docs/姬子影像拆解_工作稿.md
+
+# 官方文本整编
 姬子_官方文本存档.md
 姬子_官方资料汇编_v1.md
 
